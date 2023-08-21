@@ -6,6 +6,7 @@ import threading
 import time
 from streamlit_extras.switch_page_button import switch_page
 from streamlit_extras import switch_page_button
+import data_info 
 
 data_csv_path = 'data_ret.csv'
 data_available = threading.Event()
